@@ -2,6 +2,8 @@
 
 ###### Apply the normalization process to the Veterinary Office List—Version Two relation shown in Figure 1-35 (see page 63) to develop a set of normalized relations. Show the results of each of the steps in the normalization process.
 
+Link to google doc: Click Here
+
 Normalization is simply the process (or steps for) of breaking a table or relation with more than one theme into a set of tables such that each has only one theme. 
 
 The table starts as PET_LIST(PetName, PetType, PetBreed, PetDOB, OwnerLastName, OwnerFirstName, OwnerPhone, OwnerEmail, Service.Date, Charge)
