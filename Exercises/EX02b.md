@@ -18,6 +18,14 @@ Before we get to the primary keys, we identify the functional dependencies in th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TransactionID determines (Service, ServiceDate, ServiceCharge, *Pets*)
 
+The final normilization for a table like this would look soomething like:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Owner (OwnerEmail, OwnerLast, OwnerFirst, OwnerPhone)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pet (PetName, PetType, PetDOB, *OwnerEmail*)
+
+OwnerEmail is the primary key for Owner and a foriegn key for Pet
+
 ##### GitHub: Create a Markdown file ( filename.md) showing each step of the normalization process and the final result
 
 ##### FlipGrid: Discuss your normalization stages and the final result (add a link to your GitHub file).
