@@ -10,11 +10,11 @@ The table starts as PET_LIST(PetName, PetType, PetBreed, PetDOB, OwnerLastName, 
 
 To normalize the table, we find candidate keys of the table. We do not necessarily have candidate keys that would be effective enough to use as Primary keys, so we create new ones where needed. PetID, OwnerID, and TransactionID. 
 
-Before we get to the primary keys, we identify the functional dependencies in the relation. The functional dependencies are such that a PetID will determine the (PetName, PetType, PetBreed, PetDOB, and OwnerID).
+Before we get to the primary keys, we identify the functional dependencies in the relation. The functional dependencies are such that a PetID will determine the (PetName, PetType, PetBreed, PetDOB, and *Owners*).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OwnerID determines (OwnerLastName, OwnerFirstName, OwnerPhone, OwnerEmail)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TransactionID determines (Service, ServiceDate, ServiceCharge, PetID)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TransactionID determines (Service, ServiceDate, ServiceCharge, *Pets*)
 
 ##### GitHub: Create a Markdown file ( filename.md) showing each step of the normalization process and the final result
 
