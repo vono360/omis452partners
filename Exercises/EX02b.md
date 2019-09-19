@@ -7,6 +7,7 @@ Link to google doc: [Click Here](https://docs.google.com/document/d/1QvAkQdIaDTC
 Normalization is simply the process (or steps for) of breaking a table or relation with more than one theme into a set of tables such that each has only one theme. 
 
 The table starts as PET_LIST(PetName, PetType, PetBreed, PetDOB, OwnerLastName, OwnerFirstName, OwnerPhone, OwnerEmail, Service.Date, Charge)
+![Step1](/Exercises/Step1.png) 
 
 To normalize the table, we find candidate keys of the table. We do not necessarily have candidate keys that would be effective enough to use as Primary keys, so we create new ones where needed. PetID, OwnerID, and TransactionID. 
 
