@@ -1,3 +1,4 @@
+
 INSERT INTO Department VALUES('Administration', 'bc-100-10', 'bldg01-210', '360-285-8100');
 INSERT INTO Department VALUES('Lega', 'bc-200-10', 'bldg01-220', '360-285-8200');
 INSERT INTO Department VALUES('Human Resources', 'bc-300-10', 'bldg01-230', '360-285-8300');
