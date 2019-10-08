@@ -149,6 +149,9 @@ FROM PROJECT;
 SELECT COUNT(Department) AS NumberOfDepartments
 FROM PROJECT;
 
+/* *** SQL-Query-CH03-31 Austin and Amelia *** */
+SELECT COUNT(DISTINCT Department) AS NumberOfDepartments
+FROM PROJECT;
 
 
 
