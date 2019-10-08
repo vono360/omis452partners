@@ -145,7 +145,9 @@ FROM PROJECT;
 SELECT COUNT(*) AS NumberOfProjects
 FROM PROJECT;
 
-
+/* *** SQL-Query-CH03-30 Austin and Amelia *** */
+SELECT COUNT(Department) AS NumberOfDepartments
+FROM PROJECT;
 
 
 
