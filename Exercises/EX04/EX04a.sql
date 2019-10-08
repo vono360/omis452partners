@@ -236,7 +236,9 @@ WHERE EmployeeNumber IN
             FROM PROJECT
             WHERE Department = 'Accounting'));
 
-
+/* *** SQL-Query-CH03-45 Austin and Amelia *** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM EMPLOYEE, ASSIGNMENT;
 
 
 
