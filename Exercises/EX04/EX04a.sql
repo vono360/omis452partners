@@ -23,3 +23,7 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-5 Austin and Amelia *** */
 SELECT Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-6 Austin and Amelia *** */
+SELECT DISTINCT Department
+FROM PROJECT;
