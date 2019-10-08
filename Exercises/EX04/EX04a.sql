@@ -141,7 +141,9 @@ WHERE OfficePhone IS NOT NULL;
 SELECT COUNT(*)
 FROM PROJECT;
 
-
+/* *** SQL-Query-CH03-29 Austin and Amelia *** */
+SELECT COUNT(*) AS NumberOfProjects
+FROM PROJECT;
 
 
 
