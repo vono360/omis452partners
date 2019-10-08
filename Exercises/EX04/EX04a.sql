@@ -161,7 +161,9 @@ SELECT SUM(MaxHours) AS TotalMaxHours,
 FROM PROJECT
 WHERE ProjectID <= 1200;
 
-
+/* *** SQL-Query-CH03-33 Austin and Amelia *** */
+SELECT ProjectName, COUNT(*)
+FROM PROJECT;
 
 
 
