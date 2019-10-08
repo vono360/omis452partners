@@ -185,6 +185,13 @@ FROM EMPLOYEE
 GROUP BY Department
 HAVING COUNT(*) > 1;
 
+/* *** SQL-Query-CH03-38 Austin and Amelia *** */
+SELECT Department, COUNT(*) AS NumberOfEmployees
+FROM EMPLOYEE
+WHERE EmployeeNumber <= 10 
+GROUP BY Department
+HAVING COUNT(*) > 1; 
+
 
 
 
