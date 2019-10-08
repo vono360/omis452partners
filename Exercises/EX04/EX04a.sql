@@ -63,7 +63,11 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 ORDER BY Department DESC, LastName ASC;
 
-
+/* *** SQL-Query-CH03-14 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE Department = 'Accounting'
+    AND OfficePhone = '360-285-8430';
 
 
 
