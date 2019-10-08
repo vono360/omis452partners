@@ -32,3 +32,8 @@ FROM PROJECT;
 SELECT * 
 FROM PROJECT
 WHERE Department= 'Finance';
+
+/* *** SQL-Query-CH03-8 Austin and Amelia *** */
+SELECT * 
+FROM PROJECT
+WHERE StartDate = '05/10/2017';
