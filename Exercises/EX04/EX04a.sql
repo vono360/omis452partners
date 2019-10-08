@@ -224,7 +224,17 @@ WHERE HoursWorked > 40
         FROM PROJECT
         WHERE Department = 'Accounting');
 
-
+/* *** SQL-Query-CH03-44 Austin and Amelia *** */
+SELECT FirstName, LastName
+FROM EMPLOYEE
+WHERE EmployeeNumber IN 
+    (SELECT DISTINCT EmployeeNumber
+    FROM ASSIGNMENT
+    WHERE HoursWorked > 40
+    AND ProjectID IN 
+            (SELECT ProjectID 
+            FROM PROJECT
+            WHERE Department = 'Accounting'));
 
 
 
