@@ -174,7 +174,10 @@ WHERE MaxHours > AVG(MaxHours);
 SELECT ProjectID, ProjectName, MaxHours, (24.50* MaxHours) AS MaxProjectCost
 FROM PROJECT;
 
-
+/* *** SQL-Query-CH03-36 Austin and Amelia *** */
+SELECT Department, COUNT(*) AS NumberOfEmployees
+FROM EMPLOYEE
+GROUP BY Department;
 
 
 
