@@ -42,3 +42,12 @@ WHERE StartDate = '05/10/2017';
 SELECT *
 FROM PROJECT
 WHERE MaxHours > 135;
+
+/* *** SQL-Query-CH03-10 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE Department = 'Accounting';
+
+
+
+
