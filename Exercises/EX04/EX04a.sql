@@ -102,7 +102,10 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE EmployeeNumber BETWEEN 2 AND 5;
 
-
+/* *** SQL-Query-CH03-21 Austin and Amelia *** */
+SELECT * 
+FROM PROJECT
+WHERE ProjectName LIKE '2017 Q_ Portfolio Analysis';
 
 
 
