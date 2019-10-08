@@ -58,7 +58,10 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 ORDER BY Department DESC;
 
-
+/* *** SQL-Query-CH03-13 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+ORDER BY Department DESC, LastName ASC;
 
 
 
