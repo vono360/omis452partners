@@ -137,7 +137,9 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE OfficePhone IS NOT NULL;
 
-
+/* *** SQL-Query-CH03-28 Austin and Amelia *** */
+SELECT COUNT(*)
+FROM PROJECT;
 
 
 
