@@ -37,3 +37,8 @@ WHERE Department= 'Finance';
 SELECT * 
 FROM PROJECT
 WHERE StartDate = '05/10/2017';
+
+/* *** SQL-Query-CH03-9 Austin and Amelia *** */
+SELECT *
+FROM PROJECT
+WHERE MaxHours > 135;
