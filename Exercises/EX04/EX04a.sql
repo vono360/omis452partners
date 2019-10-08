@@ -170,6 +170,9 @@ SELECT *
 FROM PROJECT
 WHERE MaxHours > AVG(MaxHours);
 
+/* *** SQL-Query-CH03-35 Austin and Amelia *** */
+SELECT ProjectID, ProjectName, MaxHours, (24.50* MaxHours) AS MaxProjectCost
+FROM PROJECT;
 
 
 
