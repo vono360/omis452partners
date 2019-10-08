@@ -210,3 +210,7 @@ WHERE EmployeeNumber IN
     FROM ASSIGNMENT
     WHERE HoursWorked > 50);
 
+/* *** SQL-Query-CH03-42 Austin and Amelia *** */
+SELECT DISTINCT ProjectID
+FROM PROJECT
+WHERE Department = 'Accounting';
