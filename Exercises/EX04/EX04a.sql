@@ -197,7 +197,10 @@ SELECT FirstName, LastName
 FROM EMPLOYEE
 WHERE EmployeeNumber IN (6, 10, 11, 16, 17);
 
-
+/* *** SQL-Query-CH03-40 Austin and Amelia *** */
+SELECT DISTINCT EmployeeNumber
+FROM ASSIGNMENT
+WHERE HoursWorked > 50;
 
 
 
