@@ -48,6 +48,9 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE Department = 'Accounting';
 
-
+/* *** SQL-Query-CH03-11 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+ORDER BY Department;
 
 
