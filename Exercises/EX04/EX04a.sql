@@ -240,7 +240,10 @@ WHERE EmployeeNumber IN
 SELECT FirstName, LastName, ProjectID, HoursWorked
 FROM EMPLOYEE, ASSIGNMENT;
 
-
+/* *** SQL-Query-CH03-46 Austin and Amelia *** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM EMPLOYEE, ASSIGNMENT
+WHERE EMPLOYEE.EmployeeNumber = ASSIGNMENT.EmployeeNumber;
 
 
 
