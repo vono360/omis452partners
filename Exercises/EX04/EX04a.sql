@@ -75,7 +75,11 @@ FROM EMPLOYEE
 WHERE Department = 'Accounting'
     OR  OfficePhone = '360-285-8430';
 
-
+/* *** SQL-Query-CH03-16 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE Department = 'Accounting'
+    AND NOT OfficePhone = '360-285-8430';
 
 
 
