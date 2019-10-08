@@ -19,3 +19,7 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-4 Austin and Amelia *** */
 SELECT ProjectName, MaxHours, Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-5 Austin and Amelia *** */
+SELECT Department
+FROM PROJECT;
