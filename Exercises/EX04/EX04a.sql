@@ -117,7 +117,10 @@ SELECT *
 FROM EMPLOYEE
 WHERE OfficePhone LIKE '360-387-88%';
 
-
+/* *** SQL-Query-CH03-24 Austin and Amelia *** */
+SELECT * 
+FROM EMPLOYEE
+WHERE Department LIKE '%ing';
 
 
 
