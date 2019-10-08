@@ -132,7 +132,10 @@ SELECT FirstName, LastName, Department, OfficePhone
 FROM EMPLOYEE
 WHERE OfficePhone IS NULL;
 
-
+/* *** SQL-Query-CH03-27 Austin and Amelia *** */
+SELECT FirstName, LastName, Department, OfficePhone
+FROM EMPLOYEE
+WHERE OfficePhone IS NOT NULL;
 
 
 
