@@ -27,3 +27,8 @@ FROM PROJECT;
 /* *** SQL-Query-CH03-6 Austin and Amelia *** */
 SELECT DISTINCT Department
 FROM PROJECT;
+
+/* *** SQL-Query-CH03-7 Austin and Amelia *** */
+SELECT * 
+FROM PROJECT
+WHERE Department= 'Finance';
