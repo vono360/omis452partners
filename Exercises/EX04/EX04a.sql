@@ -122,7 +122,10 @@ SELECT *
 FROM EMPLOYEE
 WHERE Department LIKE '%ing';
 
-
+/* *** SQL-Query-CH03-25 Austin and Amelia *** */
+SELECT * 
+FROM EMPLOYEE
+WHERE Department NOT LIKE '%ing';
 
 
 
