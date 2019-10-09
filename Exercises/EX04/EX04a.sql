@@ -279,3 +279,6 @@ FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A
         JOIN PROJECT AS P
             ON A.ProjectID = P.ProjectID
 ORDER BY P.ProjectID, A.EmployeeNumber;
+
+/* *** SQL-Query-CH03-52 Austin and Amelia *** */
+SELECT * FROM PROJECT;
