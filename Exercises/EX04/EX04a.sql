@@ -257,7 +257,7 @@ FROM 	EMPLOYEE JOIN ASSIGNMENT
 	ON EMPLOYEE.EmployeeNumber = Assignment.EmployeeNumber
  ORDER BY EMPLOYEE.EmployeeNumber, ProjectID;
 
-/* *** SQL-Query-CH03-48 Austin and Amelia *** */
+/* *** SQL-Query-CH03-49 Austin and Amelia *** */
 SELECT FirstName, LastName,
         SUM(HoursWorked) AS TotalHoursWorked
 FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A 
@@ -265,5 +265,10 @@ FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A
 GROUP BY    LastName, FirstName
 ORDER BY    LastName, FirstName;
 
-
+/* *** SQL-Query-CH03-50 Austin and Amelia *** */
+SELECT FirstName, LastName, ProjectID, HoursWorked
+FROM    EMPLOYEE AS E JOIN ASSIGNMENT AS A
+    ON E.EmployeeNumber = A.EmployeeNumber
+WHERE HoursWorked >50 
+ORDER BY LastName, FirstName, ProjectID;
 
