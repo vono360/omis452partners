@@ -272,3 +272,10 @@ FROM    EMPLOYEE AS E JOIN ASSIGNMENT AS A
 WHERE HoursWorked >50 
 ORDER BY LastName, FirstName, ProjectID;
 
+/* *** SQL-Query-CH03-51 Austin and Amelia *** */
+SELECT ProjectName, FirstName, LastName, HoursWorked
+FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A 
+    ON E.EmployeeNumber = A.EmployeeNumber
+        JOIN PROJECT AS P
+            ON A.ProjectID = P.ProjectID
+ORDER BY P.ProjectID, A.EmployeeNumber;
