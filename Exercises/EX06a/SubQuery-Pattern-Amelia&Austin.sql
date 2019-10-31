@@ -1,4 +1,13 @@
 /*      Amelia and Austin Subqueries      */
+SELECT ProjectID, EmployeeNumber, HoursWorked 
+FROM `ASSIGNMENT` 
+WHERE HoursWorked > 
+	(SELECT AVG (HoursWorked) 
+     	FROM ASSIGNMENT)
+     	ORDER BY EmployeeNumber
+
+
+/*      Amelia and Austin Subqueries      */
 SELECT DISTINCT ProjectID
 FROM `project`
 WHERE NOT EXISTS
